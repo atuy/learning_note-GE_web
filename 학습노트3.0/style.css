@@ -1,0 +1,77 @@
+header
+{
+  border-bottom:2px solid gray;
+  padding:30px;
+}
+header, nav, footer 
+{
+    text-align: center;
+}
+footer
+{
+    align-self: flex-start;
+    padding: 30px;
+}
+nav 
+{
+  border-right:2px solid gray;
+  width:250px;
+  height:100em;
+  float:left;
+}
+body
+{
+    background-color: aliceblue; 
+    font-family : "휴먼편지체";
+	font-size : 1em;
+    text-align: justify;
+}
+h1, h2, h3
+{
+	text-shadow : 3px 3px 5px skyblue;
+	color : blue;	
+}
+hr
+{
+    border-width: medium;
+}
+nav ul
+{
+    list-style:none;
+    display : inline-block;
+    padding : 10px 30px;
+}
+nav ul li
+{
+    padding : 10px;
+}
+articla
+{
+    float: left;
+    padding: 30px;
+}
+
+li:hover 
+{ /* 가상 클래스 셀렉터 */
+	background-color : cornflowerblue;
+}
+
+a:link 
+{
+  text-decoration: none;
+}
+
+a:visited {
+    
+  text-decoration: none;
+}
+
+a:hover 
+{
+  text-decoration: underline;
+}
+
+a:active 
+{
+  text-decoration: underline;
+}

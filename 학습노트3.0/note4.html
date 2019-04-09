@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>학습노트 만들기 2.0</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @keyframes bomb {
+          from { font-size : 500%;}
+          to { font-size : 100%;}
+        }
+        h4 {
+            animation-name : bomb;
+            animation-duration : 3s;
+            animation-iteration-count : infinite;
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <h1>
+           <a href="index.html">학습노트 2.0</a>
+       </h1>
+   </header>
+   <nav>
+       <ul>
+           <li>
+               <a href="note1.html">테이블</a>
+           </li>
+           <li>
+               <a href="note2.html">text-shadow</a>
+           </li>
+           <li>
+               <a href="note3.html">마우스 올려서 동작</a>
+           </li>
+           <li>
+               <a href="note4.html">애니메이션 연습</a>
+           </li>
+       </ul>
+   </nav>
+   <article>
+       <h4>꽝!</h4>
+       <br>
+       <br>
+        <p>꽝! 글자가 3초동안 500%에서
+        시작하여 100%로 바뀌는
+        애니메이션입니다. 무한 반복합니다.</p>
+        <details>
+            <summary>적용코드</summary>
+            &lt;style&gt;<br />
+            @keyframes bomb {<br />
+            from { font-size : 500%;}<br />
+            to { font-size : 100%;}<br />
+            }<br /><br /><br />
+            h3 {<br />
+            animation-name : bomb;<br />
+            animation-duration : 3s;<br />
+            animation-iteration-count : infinite;<br />
+            }<br /><br />
+            &lt;/style&gt;<br /><br /><br />
+            &lt;h3&gt;꽝!&lt;/h3&gt;<br /><br /><br />
+        </details>
+    </article>
+
+   <footer>
+       <p>Copyright 2019 by 박찬명</p>
+   </footer>
+</body>
+</html>
