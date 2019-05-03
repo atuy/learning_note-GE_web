@@ -1,0 +1,254 @@
+div#pcm_main
+/*폰트 굵기 수정*/
+{
+    text-align: center;
+    color: darkgray;
+    text-shadow: 2px 2px 2px black, 0 0 25px gray, 0 0 5px darkgray;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+a {
+  	text-decoration : none;
+    color: white;
+}
+nav#pcm_first
+/*마진 삭제 text-align 수정*/
+{
+    text-align: center;
+    background : gray;
+}
+nav#pcm_sec
+/*마진삭제*/
+{    
+    background : gray;
+}
+nav table
+/*테이블 사이즈를 지정함*/
+{
+    text-align: center;
+    margin-right: auto;
+	margin-left: auto;
+	border-collapse: collapse;
+}
+nav table tr
+/*마진과 패딩 추가*/
+{
+	margin: 10px;
+	padding: 0px;
+	font-size: 25px;
+
+}
+nav table td
+/*테이블의 폰트 사이즈 지정*/
+{
+	padding: 5px 25px;
+	
+
+}
+nav table td:hover
+/*마우스 올라갈때 배경 설정*/
+{
+    background-color : darkgray;
+}
+nav table td a:hover
+/*마우스 올라갈때 글자 배경 설정*/
+{
+    color: black;
+}
+nav ul
+/*마진과 패딩 추가*/
+{
+	margin: 10px;
+	padding: 0px;
+}
+nav ul li
+/*
+	마진에서 -4를 한 이유는 리스트 자체에서 4px을 가지고 있음
+	지금 css에서 완전히 마출려면 -3px을 해야해서 -3px로 지정함
+*/
+{   
+    text-align: center;
+    display: inline-block;
+	list-style-type : none;
+	padding : 5px 25px;
+    font-size: 25px;
+   	margin: 0px -3px;  
+}
+nav ul li:hover
+{
+    background-color : darkgray;
+}
+nav ul li a:hover
+{
+    color : black;
+}
+article ul.pcm_sq
+{
+    list-style-image: url(http://hclass.pcu.ac.kr/files/spade_cards/square.png);
+}
+article div.pcm_db
+/*vertical-align으로 위로 정렬함*/
+{
+    display:inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+article#pcm_a-3 table
+/*테이블의 사이즈를 줘 전체 찰 수 있도록 함*/
+{
+    width: 100%;    
+}
+article#pcm_a-3 table td
+/*같은 크기로 나누기 위해 33%로 나눔*/
+{
+    width: 33%;    
+}
+article#pcm_a-4 details div
+/*디테일 안 의 간격을 조정하기 위한 css*/
+{
+    padding: 20px 0 20px 0;
+}
+article#pcm_a-5 div.pcm_card
+{
+    display: inline-block;
+    width: 100px;
+    height: 140px;
+    background-image: url("http://hclass.pcu.ac.kr/files/spade_cards/sb.jpg");
+    background-size: 100px 140px;
+}
+article#pcm_a-5 div#pcm_c1:hover
+/*
+    이미지 적용 안되는 부분 ""빠짐으로 인한 오류 수정
+    box-shadow로 그림자 효과 넣음
+    radius 수정
+*/
+{
+    background-image: url("http://hclass.pcu.ac.kr/files/spade_cards/s1.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c2:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s2.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c3:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s3.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c4:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s4.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c5:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s5.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c6:hover
+{
+    background-image : url(http://hclass.pcu.ac.kr/files/spade_cards/s6.jpg);
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c7:hover
+{
+    background-image : url(http://hclass.pcu.ac.kr/files/spade_cards/s7.jpg);
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c8:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s8.jpg");
+    border-radius:15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c9:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s9.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c10:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s10.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c11:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s11.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c12:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s12.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c13:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s13.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+}
+article#pcm_a-5 div#pcm_c14:hover
+{
+    background-image : url("http://hclass.pcu.ac.kr/files/spade_cards/s14.jpg");
+    border-radius: 15px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 blue;
+
+}
+article#pcm_a-5 details#pcm_ex_3 div.gugu
+/*구구단 인라인 박스와 패딩 넣기*/
+{
+    display: inline-block;
+    padding: 20px;
+}
+article#pcm_a-5 details#pcm_ex_3 div.gugu:hover
+/*라운드 효과와 박스쉐도우 넣기*/
+{
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0;
+}
+footer
+/*정렬넣기*/
+{
+    text-align: center;
+}
