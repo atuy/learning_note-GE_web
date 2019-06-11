@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트 예제(html)</title>
+    <style>
+        div.gugudan {
+            display: inline-block;
+            padding: 20px;
+        }
+    </style>
+    <script>
+        function gugudan(n) {               // 함수 작성
+            var m = parseInt(n);            // 문자열 n을 숫자로 바꿈
+            for(var i=1; i<=9; i++) {       // i는 1~9까지 반복
+                document.write(m + " x " + i + " = " + m*i + "<br>");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>구구단 출력 함수 만들기</h3>
+    <script>
+        alert("페이지 소스 보기를 통해 소스와 주석을 확인하기(HTML)");
+        var i;
+        for (i = 2; i < 10; i += 1) {
+            document.write("<div class='gugudan'>");
+            gugudan(i);
+            document.write("</div>");
+        }
+    </script>
+</body>
+</html>

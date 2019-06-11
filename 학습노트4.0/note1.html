@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>학습노트 만들기 4.0</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <header>
+       <h1>
+           <a href="index.html">학습노트 4.0</a>
+       </h1>
+   </header>
+   <nav>
+       <ul>
+           <li>
+               <a href="note1.html">테이블</a>
+           </li>
+           <li>
+               <a href="note2.html">text-shadow</a>
+           </li>
+           <li>
+               <a href="note3.html">마우스 올려서 동작</a>
+           </li>
+           <li>
+               <a href="note4.html">애니메이션 연습</a>
+           </li>
+           <li>
+               <a href="note5.html" target="_blank">자바스크립트 예제(html)</a>
+           </li>
+           <li>
+               <a href="note5_1.html" target="_blank">자바스크립트 예제(JS)</a>
+           </li>
+           <li>
+               <a href="note6.html" target="_blank">중간고사</a>
+           </li>
+           <li>
+               <a href="note7.html" target="_blank">캔버스 기초 활용 과제</a>
+           </li>
+           <li>
+               <a href="note8.html" target="_blank">핑퐁</a>
+           </li>
+           <li>
+               <a href="note9.html" target="_blank">스프라이트이미지</a>
+           </li>
+            <li>
+               <a href="note10.html" target="_blank">배경과 스프라이트</a>
+           </li>
+       </ul>
+   </nav>
+   <article>
+       <h3>table</h3>
+                table테그는 HTML 4.01버전에서 홈페이지를 만들 때 가장 많이 사용하는 테그 중 하나이다<br>
+                하지만 HTML5 에서는 박스모델 레이아웃으로 바뀌어 사용된다<br>
+                게시판, 자료실을 만들거나 단과 구역이 여러 개로 분리되어 있는 복잡한 문서를 제작 할경우 table로 하면 깔끔하게 처리할 수 있다<br><br>
+                
+                <dl>
+                   
+                    <div>
+                        <strong>table의 태그</strong>
+                        <dd>table에는 다양한 테그가 존재한다<br>
+                        table에 대한 테그는 아래의 링크에서 확인하자<br><br>
+                        <a href="https://www.w3schools.com/tags/tag_table.asp" target="_blank">table의 테그 확인하기</a>
+                        </dd>
+                    </div>
+                </dl>
+                
+                <dl>
+                    <strong>기본적인 테이블</strong>
+                    <dd>
+                        2X2의 테이블
+                        <table border="1">
+                            <tr>
+                                <td>1셀</td>
+                                <td>2셀</td>
+                            </tr>
+                            <tr>
+                                <td>3셀</td>
+                                <td>4셀</td>
+                            </tr>
+                        </table>
+                        <details>
+                            <summary>적용 코드</summary>
+                            &lt;table border="1"&gt;<br>
+                            
+                             &lt;tr&gt;<br>
+                              &lt;td&gt; 1셀 &lt;/td&gt;<br>
+                              &lt;t&gt;d 2셀 &lt;/td&gt;<br>
+                             &lt;tr&gt;<br>
+                              &lt;tr&gt;<br>
+                              &lt;td&gt; 3셀 &lt;/td&gt;<br>
+                              &lt;td&gt; 4셀 &lt;/td&gt;<br>
+                             &lt;tr&gt;<br>
+
+                        </details>
+                    </dd>
+                   
+                </dl>
+                 <dl>
+                        <strong>
+                            table 합치기
+                        </strong>
+                        <dd>
+                        table 속성중 셀을 합칠 수 있는 속성이 있다<br>
+                        colspan과 rowspan이다<br>
+                        아래의 예시와 코드를 참조하자
+                        <table border="1">
+                            <tr>
+                                <td rowspan="3">일</td>
+                                <td colspan="3">이</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">삼</td>
+                                <td rowspan="3">사</td>
+                            </tr>
+                            <tr>
+                                <td>오</td>
+                                <td>육</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">칠</td>
+                            </tr>
+                        </table>
+                         <details>
+                            <summary>적용 코드</summary>
+                            &lt;table border="1"&gt;<br>
+                            
+                             &lt;tr&gt;<br>
+                                &lt;td rowspan="3"&gt;일&lt;/td&gt;<br>
+                                &lt;td colspan="3"&gt;이&lt;/td&gt;<br>
+                            &lt;/tr&gt;<br>
+                            &lt;tr&gt;<br>
+                                &lt;td colspan="2"&gt;삼&lt;/td&gt;<br>
+                                &lt;td rowspan="3"&gt;사&lt;/td&gt;<br>
+                            &lt;/tr&gt;<br>
+                            &lt;tr&gt;<br>
+                                &lt;td>오&lt;/td&gt;<br>
+                                &lt;td>육&lt;/td&gt;<br>
+                            &lt;/tr&gt;<br>
+                            &lt;tr&gt;<br>
+                                &lt;td colspan="3"&gt;칠&lt;/td&gt;<br>
+                            &lt;/tr&gt;<br><br>
+
+                        </details>
+                        </dd>
+                    </dl>
+   </article>
+   <footer>
+       <p>Copyright 2019 by 박찬명</p>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+header
+{
+  border-bottom:2px solid gray;    /*헤더 아래의 줄을 생성*/
+  padding:30px;                    /*패딩 설정*/
+}
+header, nav, footer 
+{
+    text-align: center;            /*헤더와 나브 푸터의 텍스트 정렬을 센터로 잡음*/
+}
+footer
+{
+    align-self: flex-start;
+    padding: 30px;
+}
+nav                             
+{
+  border-right:2px solid gray;     /*나브의 줄을 생성함*/
+  width:250px;                     /*나브의 넓이를 줌*/
+  height: 120em;
+  float:left;                      /*왼쪽으로 배치*/
+}
+body
+{
+    background-color: floralwhite; /*배경색을 설정*/
+    font-family : "휴먼편지체";      /*폰트 설정*/
+	font-size : 1em;               /*폰트의 사이즈 설정*/
+    text-align: justify;           /*폰트 정렬*/
+}
+h1, h2, h3
+{
+	text-shadow : 3px 3px 5px skyblue;    /*폰트의 그림자를 설정함*/
+	color : blue;	                      /*색상 설정*/
+}
+
+nav ul
+{
+    list-style:none;                  /*리스트의 설정을 없앰*/
+    display : inline-block;           /*인라인블록으로 설정함*/
+    padding : 10px 30px;              /*패딩 설정 상하단은 10px 좌우는 30px*/
+}
+nav ul li
+{
+    padding : 10px;                   /*패딩 상하좌우 10px 설정*/
+}
+articla
+{
+    float: left;                      /*배치 설정*/
+    padding: 30px;                    /*패딩 설정*/
+}
+fieldset
+{
+    margin-left: 280px;                /*마진 왼쪽을 280px로 설정*/ 
+    margin-right: 30px;                /*마진 오른쪽 30px로 설정*/
+    margin-top: 50px;                  /*마진 상단을 50px로 설정*/
+    padding: 30px;                     /*패딩 설정*/
+}
+fieldset a 
+{
+    margin: 5px;                    /*필드셋안의 링크 태그의 마진을 5px로 잡음*/
+}
+li:hover 
+{ /* 가상 클래스 셀렉터 */
+	background-color : azure;        /*배경색을 설정*/
+}
+
+a:link 
+{
+  text-decoration: none;
+    color: #4A8C8A;
+}
+
+a:visited {
+    
+  text-decoration: none;
+    color: dodgerblue;
+}
+
+a:hover 
+{
+  text-decoration: underline;
+    color: forestgreen;
+}
+
+a:active 
+{
+  text-decoration: underline;
+}
